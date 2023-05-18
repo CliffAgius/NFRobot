@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "NFRobot", "NFDemoApp\NFRobot.nfproj", "{C6DE4609-2972-4B9E-9014-6669A714C2CE}"
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "NFRobot", "NFRobot\NFRobot.nfproj", "{C6DE4609-2972-4B9E-9014-6669A714C2CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
