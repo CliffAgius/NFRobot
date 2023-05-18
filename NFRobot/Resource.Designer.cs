@@ -20,7 +20,7 @@ namespace NFRobot
             {
                 if ((Resource.manager == null))
                 {
-                    Resource.manager = new System.Resources.ResourceManager("NFDemoApp.Resource", typeof(Resource).Assembly);
+                    Resource.manager = new System.Resources.ResourceManager("NFRobot.Resource", typeof(Resource).Assembly);
                 }
                 return Resource.manager;
             }
