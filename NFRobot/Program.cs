@@ -126,6 +126,7 @@ namespace NFRobot
             //
             while (true)
             {
+                Thread.Sleep(Timeout.Infinite);
             }
         }
 
