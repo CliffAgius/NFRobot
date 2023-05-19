@@ -97,6 +97,9 @@ namespace NFRobot
                     var user = args[0] as string;
                     var message = args[1] as string;
 
+                    user = user.Trim('"');
+                    message = message.Trim('"');
+
                     if (user == "servo1")
                     {
                         MoveToAngle(servoMotor1, Int32.Parse(message));
